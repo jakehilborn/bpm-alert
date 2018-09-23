@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  bpm-alert
-//
-//  Created by Jake Hilborn on 9/22/18.
-//  Copyright © 2018 Jake Hilborn. All rights reserved.
-//
-
 import UIKit
 import WatchConnectivity
 import HealthKit
@@ -44,9 +36,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationShouldRequestHealthAuthorization(_ application: UIApplication) {
-        
-        self.healthStore.handleAuthorizationForExtension { success, error in
-            
-        }
+        self.healthStore.handleAuthorizationForExtension { success, error in }
     }
 }

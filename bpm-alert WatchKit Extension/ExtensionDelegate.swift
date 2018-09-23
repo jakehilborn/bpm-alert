@@ -1,11 +1,3 @@
-//
-//  ExtensionDelegate.swift
-//  bpm-alert WatchKit Extension
-//
-//  Created by Jake Hilborn on 9/22/18.
-//  Copyright © 2018 Jake Hilborn. All rights reserved.
-//
-
 import WatchKit
 
 class ExtensionDelegate: NSObject, WKExtensionDelegate {
